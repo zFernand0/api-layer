@@ -93,9 +93,9 @@ fi
 
 # setting the cookieName based on the instances
 
-if [  "${ZWE_components_gateway_apiml_security_auth_uniqueCookie}" = "true" ]; then
-    cookieName="apimlAuthenticationToken.${ZWE_zowe_cookieIdentifier}"
-fi
+# if [  "${ZWE_components_gateway_apiml_security_auth_uniqueCookie}" = "true" ]; then
+cookieName="apimlAuthenticationToken.${ZWE_zowe_cookieIdentifier}"
+# fi
 
 # how to verifyCertificates
 verify_certificates_config=$(echo "${ZWE_zowe_verifyCertificates}" | tr '[:lower:]' '[:upper:]')

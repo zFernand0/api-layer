@@ -3,7 +3,7 @@ apiml:
         serviceId: enablerv1sampleapp
         hostname: localhost
         port: 10015
-        serviceIpAddress: 127.0.0.1
+        serviceIpAddress: 0.0.0.0
         discoveryServiceUrls: https://localhost:10011/eureka/
 
 spring:
