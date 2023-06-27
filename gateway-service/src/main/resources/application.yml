@@ -81,6 +81,9 @@ apiml:
             jwks:
                 uri:
         auth:
+            # uniqueCookie: true
+            cookieProperties:
+                cookieName: apimlAuthenticationToken.1
             jwt:
                 customAuthHeader:
             passticket:

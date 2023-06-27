@@ -112,9 +112,9 @@ fi
 
 # setting the cookieName based on the instances
 
-if [  "${ZWE_configs_apiml_security_auth_uniqueCookie}" = "true" ]; then
-    cookieName="apimlAuthenticationToken.${ZWE_zowe_cookieIdentifier}"
-fi
+# if [  "${ZWE_configs_apiml_security_auth_uniqueCookie}" = "true" ]; then
+cookieName="apimlAuthenticationToken.${ZWE_zowe_cookieIdentifier}"
+# fi
 
 # FIXME: APIML_DIAG_MODE_ENABLED is not officially mentioned. We can still use it behind the scene,
 # or we can define configs.diagMode in manifest, then use "$ZWE_configs_diagMode".

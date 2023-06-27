@@ -66,6 +66,10 @@ apiml:
             version: 1.0.0
 
     security:
+        auth:
+            # uniqueCookie: true
+            cookieProperties:
+                cookieName: apimlAuthenticationToken.1
         ssl:
             sslEnabled: true
             protocol: TLS
