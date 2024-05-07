@@ -3,7 +3,7 @@ apiml:
     service:
         apimlId: apiml1
         hostname: localhost
-        ipAddress: 127.0.0.1
+        ipAddress: 0.0.0.0
         port: 10010
         discoveryServiceUrls: https://localhost:10011/eureka/
 
@@ -32,7 +32,7 @@ apiml:
             zosmf:
                 serviceId: mockzosmf  # Replace me with the correct z/OSMF service id
         ssl:
-            verifySslCertificatesOfServices: true
+            verifySslCertificatesOfServices: false
         x509:
             enabled: true
             acceptForwardedCert: true
